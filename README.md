@@ -52,7 +52,7 @@ API Endpoints
 
 How to Run
 1. Build and start all services:
-   Before commands change user and password in application properties and
+   Before bash commands change user and password in application properties and
    docker-compose.yml
    mvn -f auth-api/pom.xml clean package -DskipTests
    mvn -f data-api/pom.xml clean package -DskipTests 
